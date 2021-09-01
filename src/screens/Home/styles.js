@@ -1,0 +1,66 @@
+import { StyleSheet, Dimensions } from "react-native";
+
+export default StyleSheet.create({
+  image: {
+    width: "100%",
+    height: 500,
+    resizeMode: "cover",
+    justifyContent: "center",
+  },
+  title: {
+    lineHeight: 80,
+    fontSize: 80,
+    fontWeight: "800",
+    color: "white",
+    marginLeft: 25,
+  },
+  btn: {
+    backgroundColor: "white",
+    width: 200,
+    marginLeft: 25,
+    height: 40,
+    borderRadius: 10,
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 25,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.32,
+    shadowRadius: 5.46,
+    elevation: 9,
+  },
+  btnText: {
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+  searchBtn: {
+    zIndex: 100,
+    top: 20,
+    position: "absolute",
+    alignSelf: "center",
+    flexDirection: "row",
+    backgroundColor: "white",
+    width: Dimensions.get("screen").width * 0.9,
+    marginLeft: 25,
+    height: 60,
+    borderRadius: 30,
+    justifyContent: "center",
+    alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.32,
+    shadowRadius: 5.46,
+    elevation: 9,
+  },
+  searchBtnText: {
+    marginLeft: 10,
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+});

@@ -1,17 +1,14 @@
 import React from 'react';
-import {SafeAreaView, StatusBar, Text } from 'react-native'
-import Icon from 'react-native-vector-icons/dist/FontAwesome';
+import {SafeAreaView, StatusBar, Text } from 'react-native';
+import { HomeScreen } from './src/screens/Home';
 
 const App = () => {
   return (
     <SafeAreaView>
       <StatusBar />   
-      <Icon name="rocket" size={30} color="#900" />  
-      <Text> Airbnb app </Text>  
+      <HomeScreen />
     </SafeAreaView>
   );
 };
-
-
 
 export default App;
