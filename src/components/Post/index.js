@@ -3,7 +3,6 @@ import { View, Text, Image } from "react-native";
 import styles from "./styles";
 
 export const Post = ({post}) => {
-  console.log(post)
   return (
     <View style={styles.container}>
       <Image
