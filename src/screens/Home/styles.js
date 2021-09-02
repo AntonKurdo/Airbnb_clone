@@ -38,7 +38,7 @@ export default StyleSheet.create({
   },
   searchBtn: {
     zIndex: 100,
-    top: 20,
+    top: 50,
     position: "absolute",
     alignSelf: "center",
     flexDirection: "row",

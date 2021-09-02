@@ -1,6 +1,10 @@
 import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
+  container: {
+    height: '100%',
+    justifyContent: 'space-between'
+  },  
   row: {
     flexDirection: "row",
     alignItems: "center",
@@ -27,4 +31,19 @@ export default StyleSheet.create({
     marginHorizontal: 10,
     fontSize: 17,
   },
+  btnSearch: {
+    width: "90%",
+    marginBottom: 30,
+    alignSelf: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 50,  
+    borderRadius: 10,
+    backgroundColor: "#f15454"
+  },
+  btnSearchText: {
+    fontSize: 20,
+    color: "white",
+    fontWeight: "bold"
+  }
 });
