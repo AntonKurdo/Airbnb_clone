@@ -9,7 +9,6 @@ import feed from '../../../assets/data/feed.js'
 import { Post } from '../../components/Post';
 
 export const SearchResultScreen = () => {
-  console.log(feed)
   return (
     <View style={styles.default}>    
       <FlatList 
