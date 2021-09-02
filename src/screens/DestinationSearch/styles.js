@@ -4,7 +4,7 @@ export default StyleSheet.create({
   container: {
     margin: 20,
   },  
-  textInput: {
+  textInput: { 
     fontSize: 20,
     marginBottom: 20
   },
